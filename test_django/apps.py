@@ -5,15 +5,15 @@ from django.apps import AppConfig
 class TestConfig(AppConfig):
     # name = 'amazNew.apps.AmazNewConfig.amazNew'
     # name = 'amazNew.apps.AmazNewConfig.amazNew'
-    name = "test"
-    print('ТЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭСТ ' * 200)
+    name = "test_django"
+    print('test_django ' * 200)
     plugin_app = {
         "url_config": {
             # ProjectType.LMS p.s. const LMS equal to "lms.djangoapp"
             'lms.djangoapp': {
-                "namespace": 'test',
+                "namespace": 'test_django',
                 "regex": '^test/',
-                "relative_path": 'urls'
+                "relative_path": 'test_django.urls'
             }
         }
     }

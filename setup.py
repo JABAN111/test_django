@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='test',
+    name='test_django',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         "lms.djangoapp": [
-            "test = test_django.apps:TestConfig",
+            "test_django = test_django.apps:TestConfig",
         ],
         "cms.djangoapp": [
         ],
