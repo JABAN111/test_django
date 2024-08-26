@@ -2,7 +2,7 @@ from django.apps import AppConfig
 # from edx_django_utils.plugins import PluginURLs, PluginSettings
 
 
-class Test(AppConfig):
+class TestConfig(AppConfig):
     # name = 'amazNew.apps.AmazNewConfig.amazNew'
     # name = 'amazNew.apps.AmazNewConfig.amazNew'
     name = "test"
